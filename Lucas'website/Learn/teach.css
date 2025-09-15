@@ -1,0 +1,22 @@
+
+.navbar_button {
+    display: flex;
+    flex-direction: column; /* nå fungerer det! */
+    gap: 10px; /* avstand mellom knappene */
+    width: 200px; /* valgfritt */
+}
+
+.navbar_button a {
+    border: 3px solid green;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 999;
+    background-color: white;
+    padding: 10px;
+}
+
+.navbar_button a:hover {
+    border: 3px solid black;
+    background-color: grey;
+}
